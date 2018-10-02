@@ -1,0 +1,78 @@
+{
+  "nodes": {
+    "0": {
+      "id": 0,
+      "data": {
+        "type": "ExpressionStatement",
+        "start": 0,
+        "end": 6,
+        "expression": {
+          "type": "BinaryExpression",
+          "start": 0,
+          "end": 5,
+          "left": {
+            "type": "Identifier",
+            "start": 0,
+            "end": 1,
+            "name": "a"
+          },
+          "operator": "+",
+          "right": {
+            "type": "Identifier",
+            "start": 4,
+            "end": 5,
+            "name": "b"
+          }
+        }
+      }
+    },
+    "1": {
+      "id": 1,
+      "data": {
+        "type": "BinaryExpression",
+        "start": 0,
+        "end": 5,
+        "left": {
+          "type": "Identifier",
+          "start": 0,
+          "end": 1,
+          "name": "a"
+        },
+        "operator": "+",
+        "right": {
+          "type": "Identifier",
+          "start": 4,
+          "end": 5,
+          "name": "b"
+        }
+      }
+    },
+    "2": {
+      "id": 2,
+      "data": {
+        "type": "Identifier",
+        "start": 0,
+        "end": 1,
+        "name": "a"
+      }
+    },
+    "3": {
+      "id": 3,
+      "data": {
+        "type": "Identifier",
+        "start": 4,
+        "end": 5,
+        "name": "b"
+      }
+    }
+  },
+  "edges": {
+    "0": [
+      1
+    ],
+    "1": [
+      2,
+      3
+    ]
+  }
+}
